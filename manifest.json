@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "DeepSeek Token Login",
+    "version": "1.0",
+    "description": "输入并注入 DeepSeek userToken 实现登录",
+    "permissions": ["scripting", "tabs", "storage"],
+    "host_permissions": ["https://chat.deepseek.com/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png"
+      },
+      "default_title": "DeepSeek Token Login"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://chat.deepseek.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
