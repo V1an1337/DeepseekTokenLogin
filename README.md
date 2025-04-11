@@ -1,4 +1,10 @@
-## Installation
+## Features
+- Login deepseek chat by userToken
+- Get deepseek chat userToken
+Working on the website:
+https://chat.deepseek.com
+
+## Installation
 
 download and unzip the source code
 
