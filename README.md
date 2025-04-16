@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/824221d6-e9ff-471d-a2f8-0fe5afaa0549)
+![image](https://github.com/user-attachments/assets/a29378d2-337d-4c63-94ac-10d78aad8950)
+
 ## Features
 
 - Login deepseek chat by userToken
