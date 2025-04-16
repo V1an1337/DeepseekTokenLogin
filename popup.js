@@ -1,3 +1,12 @@
+chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+  const currentTab = tabs[0];
+  const url = currentTab.url;
+
+  if (!url.includes("chat.deepseek.com")) {
+    chrome.tabs.create({ url: "https://chat.deepseek.com" });
+    return;
+  }
+});
 document.getElementById("loginBtn").addEventListener("click", () => {
   const token = document.getElementById("tokenInput").value.trim();
 
