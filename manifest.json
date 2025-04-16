@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "DeepSeek Token Login",
     "version": "1.0",
-    "description": "输入并注入 DeepSeek userToken 实现登录",
+    "description": "Login to chat.deepseek.com by userToken",
     "permissions": ["scripting", "tabs", "storage"],
     "host_permissions": ["https://chat.deepseek.com/*"],
     "action": {
